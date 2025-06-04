@@ -8,11 +8,15 @@
 
   <ItemGroup>
     <Folder Include="ExternalServices\EmailServices\" />
-    <Folder Include="ExternalServices\CacheServices\" />
     <Folder Include="ExternalServices\PaymentServices\" />
     <Folder Include="Configurations\" />
     <Folder Include="Persistence\Interfaces\" />
     <Folder Include="Persistence\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.37" />
   </ItemGroup>
 
   <ItemGroup>
