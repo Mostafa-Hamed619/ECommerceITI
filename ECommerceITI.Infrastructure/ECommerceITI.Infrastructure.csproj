@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ExternalServices\EmailServices\" />
+    <Folder Include="ExternalServices\CacheServices\" />
+    <Folder Include="ExternalServices\PaymentServices\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="Persistence\Interfaces\" />
+    <Folder Include="Persistence\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerceITI.Domain\ECommerceITI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
