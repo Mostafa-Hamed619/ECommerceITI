@@ -1,5 +1,7 @@
-﻿using ECommerceITI.Domain.Interfaces.Caching;
+﻿using ECommerceITI.Application.DTOs.Settings;
+using ECommerceITI.Domain.Interfaces.Caching;
 using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Options;
 using System.Text;
 using System.Text.Json;
 
@@ -8,11 +10,14 @@ namespace ECommerceITI.Infrastructure.ExternalServices.CacheServices
     public class RedisService : IRedisService
     {
         private readonly IDistributedCache? _cache;
+        private readonly RedisSettings _settings;
 
-        public RedisService(IDistributedCache? cache)
+        public RedisService(IDistributedCache? cache, IOptions<RedisSettings> options)
         {
             _cache = cache;
+            _settings = options.Value;
         }
+
 
         public T? GetData<T>(string Key)
         {
@@ -28,7 +33,7 @@ namespace ECommerceITI.Infrastructure.ExternalServices.CacheServices
         {
             var options = new DistributedCacheEntryOptions
             {
-                AbsoluteExpirationRelativeToNow = TimeSpan.FromHours(1)
+                AbsoluteExpirationRelativeToNow = _settings.TimoutHS
             };
 
             _cache?.SetString(key: Key, value: JsonSerializer.Serialize(Data), options);
