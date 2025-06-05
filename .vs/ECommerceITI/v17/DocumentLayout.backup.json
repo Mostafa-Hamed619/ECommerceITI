@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "E:\\projects\\Api\\ECommerceITI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8D6446D-030D-4883-BCE9-DA76480C2388}|ECommerceITI.API\\ECommerceITI.API.csproj|e:\\projects\\api\\ecommerceiti\\ecommerceiti.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8D6446D-030D-4883-BCE9-DA76480C2388}|ECommerceITI.API\\ECommerceITI.API.csproj|solutionrelative:ecommerceiti.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65DE2805-7AE7-469D-811B-837EE4514352}|ECommerceITI.Infrastructure\\ECommerceITI.Infrastructure.csproj|e:\\projects\\api\\ecommerceiti\\ecommerceiti.infrastructure\\externalservices\\cacheservices\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DE2805-7AE7-469D-811B-837EE4514352}|ECommerceITI.Infrastructure\\ECommerceITI.Infrastructure.csproj|solutionrelative:ecommerceiti.infrastructure\\externalservices\\cacheservices\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65DE2805-7AE7-469D-811B-837EE4514352}|ECommerceITI.Infrastructure\\ECommerceITI.Infrastructure.csproj|e:\\projects\\api\\ecommerceiti\\ecommerceiti.infrastructure\\configurations\\infrastructureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DE2805-7AE7-469D-811B-837EE4514352}|ECommerceITI.Infrastructure\\ECommerceITI.Infrastructure.csproj|solutionrelative:ecommerceiti.infrastructure\\configurations\\infrastructureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC45C06-23D4-41B0-8DC7-45575E0318D8}|ECommerceITI.Application\\ECommerceITI.Application.csproj|e:\\projects\\api\\ecommerceiti\\ecommerceiti.application\\dtos\\settings\\redissettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC45C06-23D4-41B0-8DC7-45575E0318D8}|ECommerceITI.Application\\ECommerceITI.Application.csproj|solutionrelative:ecommerceiti.application\\dtos\\settings\\redissettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D6446D-030D-4883-BCE9-DA76480C2388}|ECommerceITI.API\\ECommerceITI.API.csproj|e:\\projects\\api\\ecommerceiti\\ecommerceiti.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D6446D-030D-4883-BCE9-DA76480C2388}|ECommerceITI.API\\ECommerceITI.API.csproj|solutionrelative:ecommerceiti.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8D6446D-030D-4883-BCE9-DA76480C2388}|ECommerceITI.API\\ECommerceITI.API.csproj|e:\\projects\\api\\ecommerceiti\\ecommerceiti.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A8D6446D-030D-4883-BCE9-DA76480C2388}|ECommerceITI.API\\ECommerceITI.API.csproj|solutionrelative:ecommerceiti.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A884A611-5278-480E-99BA-B84844D11ECE}|ECommerceITI.Domain\\ECommerceITI.Domain.csproj|e:\\projects\\api\\ecommerceiti\\ecommerceiti.domain\\interfaces\\caching\\iredisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A884A611-5278-480E-99BA-B84844D11ECE}|ECommerceITI.Domain\\ECommerceITI.Domain.csproj|solutionrelative:ecommerceiti.domain\\interfaces\\caching\\iredisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +50,91 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfrastructureExtensions.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.Infrastructure\\Configurations\\InfrastructureExtensions.cs",
+              "RelativeDocumentMoniker": "ECommerceITI.Infrastructure\\Configurations\\InfrastructureExtensions.cs",
+              "ToolTip": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.Infrastructure\\Configurations\\InfrastructureExtensions.cs",
+              "RelativeToolTip": "ECommerceITI.Infrastructure\\Configurations\\InfrastructureExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T23:30:37.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.API\\Program.cs",
+              "RelativeDocumentMoniker": "ECommerceITI.API\\Program.cs",
+              "ToolTip": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.API\\Program.cs",
+              "RelativeToolTip": "ECommerceITI.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T23:29:33.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ECommerceITI.API\\appsettings.json",
+              "ToolTip": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.API\\appsettings.json",
+              "RelativeToolTip": "ECommerceITI.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T23:28:01.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RedisSettings.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.Application\\DTOs\\Settings\\RedisSettings.cs",
+              "RelativeDocumentMoniker": "ECommerceITI.Application\\DTOs\\Settings\\RedisSettings.cs",
+              "ToolTip": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.Application\\DTOs\\Settings\\RedisSettings.cs",
+              "RelativeToolTip": "ECommerceITI.Application\\DTOs\\Settings\\RedisSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T23:26:13.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRedisService.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.Domain\\Interfaces\\Caching\\IRedisService.cs",
+              "RelativeDocumentMoniker": "ECommerceITI.Domain\\Interfaces\\Caching\\IRedisService.cs",
+              "ToolTip": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.Domain\\Interfaces\\Caching\\IRedisService.cs",
+              "RelativeToolTip": "ECommerceITI.Domain\\Interfaces\\Caching\\IRedisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T18:35:13.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RedisService.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.Infrastructure\\ExternalServices\\CacheServices\\RedisService.cs",
+              "RelativeDocumentMoniker": "ECommerceITI.Infrastructure\\ExternalServices\\CacheServices\\RedisService.cs",
+              "ToolTip": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.Infrastructure\\ExternalServices\\CacheServices\\RedisService.cs",
+              "RelativeToolTip": "ECommerceITI.Infrastructure\\ExternalServices\\CacheServices\\RedisService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T18:16:48.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.API\\docker-compose.yml",
               "RelativeDocumentMoniker": "ECommerceITI.API\\docker-compose.yml",
               "ToolTip": "E:\\projects\\Api\\ECommerceITI\\ECommerceITI.API\\docker-compose.yml",
               "RelativeToolTip": "ECommerceITI.API\\docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-06-04T18:11:24.349Z",
               "EditorCaption": ""
